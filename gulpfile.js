@@ -57,8 +57,8 @@ function swallowError(error) {
  • Reloads browsers when you change html or sass files
 
 */
-gulp.task('default', ['pre-process', 'browser-sync'], function(){
-  gulp.start('pre-process', 'csslint', 'minify-img');
-  gulp.watch('sass/*', ['pre-process']);
+gulp.task('default', ['css', 'browser-sync'], function(){
+  gulp.start('css', 'minify-img');
+  gulp.watch('src/*', ['css']);
   gulp.watch('*.html', browserReload);
 });
