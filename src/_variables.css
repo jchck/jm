@@ -1,3 +1,7 @@
 :root{
 	--font-family: 'Source Code Pro', Consolas, monospace;
 }
+
+li{
+	margin-bottom: var(--heading-margin-bottom);
+}
