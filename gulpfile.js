@@ -15,7 +15,7 @@ var gulp = require('gulp'),
     browserReload = browserSync.reload;
 
 gulp.task('css', function() {
-  gulp.src('./src/base.css')
+  gulp.src('./src/jm.css')
     .pipe(basswork())
     .pipe(cssnext({compress: true}))
     .pipe(rename({basename: 'jm'}))
