@@ -4,4 +4,6 @@
 
 .mx-auto { margin-left: auto; margin-right: auto; }
 
-.word-break { word-break: break-all }
+@media(max-width: 30em){
+	.word-break { word-break: break-all }
+}
