@@ -12,7 +12,7 @@
   "bugs": {
     "url": "https://github.com/jchck/jm/issues"
   },
-  "homepage": "https://github.com/jchck/jm#readme",
+  "homepage": "http://jm.justinchick.com",
   "dependencies": {
     "basscss-background-images": "latest",
     "basscss-base-reset": "latest",
