@@ -1,89 +1,20 @@
-# MNML
+# jm
 
-## What is this?
+## what is this?
 
-View the project page at [http://mn-ml.cc](http://mn-ml.cc "MNML - A light-weight responsive html5 boilerplate.")
+view the project page at [http://jm.justinchick.com](http://jm.justinchick.com)
 
-MNML is a starting point for prototyping responsive HTML5 SASS projects.
-Uses gulp to create a dev environment for rapidly prototyping sites.
+jm is a miltimedia project highlighting the process to product pathway for front-end development
 
-## Features
+inspiration from [morgan dowty](http://morgandowty.com)
 
-* sass compilation
-* css minification
-* css linting
-* autoprefixer (automatically adds appropriate vendor prefixes)
-* browser reload on filesave
-* local server for serving a static site
+## makes use of
 
-## Getting started
-
-Watch [this screencast](https://vimeo.com/121332805) on getting mnml setup or
-follow the directions below.
-
-### Instructions
-
-* Create a new repo for your project on Github
-* In terminal run each line as a separate command
-```bash
-    git clone git@github.com:mrmrs/mnml.git yourNewRepoName
-    cd yourNewRepoName
-    rm -rf .git
-    git init
-    git remote add origin git@github.com:yourUserName/yourNewRepoName.git
-```
-
-* git remote -v will allow you to check that you have changed the remote origin correctly. The output should look like:
-```bash
-    origin git@github.com:yourUserName/yourNewRepoName.git (fetch)
-    origin git@github.com:yourUserName/yourNewRepoName.git (push)
-```
-
-## Dev environment
-To set up a convenient dev environment run this at the root of mnml
-
-```bash
-npm install && npm start
-```
-
-Gulp is a javascript task runner. It compiles sass, lints the compiled css, and
-sets up a browser-sync server so you can save your fingers from pressing ⌘+TAB + ⌘+r
-every time you save a file.
-
-* Once you add & commit files you are ready to publish run:
-```bash
-git push origin master
-```
-
-## Directory structure
-```
-    mnml/
-        ├── README.md
-        ├── gulpfile.js
-        ├── package.json
-        ├── index.html
-        ├── css
-        │   └── mnml.css              (10kb / 3.04 gzipped)
-        │   └── mnml.min.css          (2.27 kb minified - 989B gzipped)
-        └── sass                      CSS source files
-            ├── _normalize.scss
-            ├── _variables.scss
-            ├── _base.scss
-            ├── _type.scss
-            ├── _styles.scss
-            └── mnml.scss
-```
-
-# Author
-
-[MRMRS](http://mrmrs.io "Adam Morse - Designer Developer")
-
-# Contributors
-
-Xiao (Sean) Wu  
-Chris Bracco  
-Andrés Olivares  
-Amira Hailemariam  
+* git
+* [MNML](http://mn-ml.cc/)
+* node & npm
+* [basscss](http://www.basscss.com/)
+* gulp.js
 
 # License
 
