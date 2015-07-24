@@ -1,3 +1,7 @@
 @import './_basscss';
 
 @import './_variables';
+
+.mx-auto { margin-left: auto; margin-right: auto; }
+
+.word-break { word-break: break-all }

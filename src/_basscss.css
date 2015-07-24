@@ -7,7 +7,7 @@
 
 @import '../node_modules/basscss-utility-layout';
 @import '../node_modules/basscss-utility-typography';
-@import '../node_modules/basscss-white-space';
+/*@import '../node_modules/basscss-white-space';*/
 /*@import '../node_modules/basscss-responsive-states';*/
 /*@import '../node_modules/basscss-positions';*/
 /*@import '../node_modules/basscss-button-sizes';*/
@@ -32,8 +32,8 @@
 /* Optional Modules (not included in Basscss by default) */
 
 /*@import '../node_modules/basscss-media-object';*/
-/*@import '../node_modules/basscss-responsive-white-space';
-@import '../node_modules/basscss-utility-headings';
+@import '../node_modules/basscss-responsive-white-space';
+/*@import '../node_modules/basscss-utility-headings';
 @import '../node_modules/basscss-ui-utility-groups';
 @import '../node_modules/basscss-table-object';
 @import '../node_modules/basscss-color-buttons';
