@@ -12,13 +12,15 @@ var gulp = require('gulp'),
     rename = require('gulp-rename'),
     imagemin = require('gulp-imagemin'),
     browserSync = require('browser-sync'),
+    uncss = require('gulp-uncss'),
     browserReload = browserSync.reload;
 
 gulp.task('css', function() {
   gulp.src('./src/jm.css')
     .pipe(basswork())
-    .pipe(cssnext({compress: true}))
     .pipe(rename({basename: 'jm'}))
+    .pipe(uncss({html: ['index.html', 'http://localhost:3000/']}))
+    .pipe(cssnext({compress: true}))
     .pipe(size({gzip: false, showFiles: true, title:'basswork css'}))
     .pipe(size({gzip: true, showFiles: true, title:'basswork gzipped css'}))
     .pipe(gulp.dest('./css'))
