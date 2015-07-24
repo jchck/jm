@@ -16,11 +16,15 @@ inspiration from [morgan dowty](http://morgandowty.com)
 * [basscss](http://www.basscss.com/)
 * gulp.js
 
-# License
+# author
+
+[jchck](http://justinchick.com "Justin Chick front-end development")
+
+# license
 
 The MIT License (MIT)
 
-Copyright (c) 2015 @mrmrs
+Copyright (c) 2015 @jchck
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
