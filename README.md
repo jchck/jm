@@ -2,7 +2,7 @@
 
 ## what is this?
 
-view the project page at [http://jm.justinchick.com](http://jm.justinchick.com)
+view the project page at [http://jchck.github.io/jm/](http://jchck.github.io/jm/)
 
 jm is a miltimedia project highlighting the process to product pathway for front-end development
 
