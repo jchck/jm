@@ -4,7 +4,7 @@
 
 view the project page at [http://jchck.github.io/jm/](http://jchck.github.io/jm/)
 
-jm is a miltimedia project highlighting the process to product pathway for front-end development
+in an industry that fetishizes the product and shipping quickly (because launching is scary) jm is a project highlighting the process and only the process because it's the process that never ends.
 
 inspiration from [morgan dowty](http://morgandowty.com)
 
